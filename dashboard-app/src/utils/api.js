@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set the base URL for API requests
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://fullstackprojectbackend-e1lg.onrender.com/api';
 
 // Function to register a new user
 export const register = async (username, email, password) => {
