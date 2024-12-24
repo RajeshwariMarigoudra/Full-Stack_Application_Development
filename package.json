@@ -1,0 +1,11 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix Backend\" \"npm run start --prefix dashboard-app\"",
+    "dev": "concurrently \"npm run dev --prefix Backend\" \"npm run start --prefix dashboard-app\""
+  },
+  "dependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
