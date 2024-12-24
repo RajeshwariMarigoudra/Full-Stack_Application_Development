@@ -1,6 +1,15 @@
-# Full Stack Application
+# Full Stack Application   
 
 This project is a full-stack application with a React frontend and a Node.js backend. It uses MongoDB for data storage and is deployed on Render.
+
+## Live Demo
+
+- **Frontend (Live Demo)**: [View the frontend](https://full-stack-app-spgd.vercel.app/)
+  - This is the user-facing part of the application, built with React and hosted on Vercel.
+  
+- **Backend (API Documentation)**: [View the API Documentation (Swagger)](https://fullstackprojectbackend-e1lg.onrender.com/api-docs/)
+  - This is the backend part of the application, built with Node.js and Express. The Swagger UI provides the API documentation for all available routes.
+
 
 ## Folder Structure
 /my-project
